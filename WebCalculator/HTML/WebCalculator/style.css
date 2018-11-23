@@ -1,0 +1,132 @@
+.body {
+    position: absolute;
+    background-color: rgb(41, 44, 49);
+}
+
+@keyframes animacja1 {
+    0%{
+        background-color: white;
+        left: 0%;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: green;
+        left: 100%;
+    }
+}
+
+#background{
+    background-image: url("IMG/Mojave.jpg");
+    border-radius: 40px; 
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+    border: 2px solid rgb(41, 44, 49);
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    opacity: 0.39;
+}
+button:hover {background-color: beige};
+h1{
+    color: beige;
+    text-align: center;
+    font-family: fantasy;
+    border-radius: 25px;
+    opacity: 0.39;
+
+}
+h2{
+    color: beige;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+    opacity: 0.39;
+}
+h3{
+    color: beige;
+    border-radius: 25px;
+    opacity: 0.39;
+}
+form{
+    color: beige;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+    opacity: 0.39;
+}
+#first-number{
+    background-color: beige;
+    color: rgb(80, 80, 80);
+    text-align: center;
+    width: 10%;
+    border-radius: 5px;
+    opacity: 0.39;
+    font-size: 24px;
+}
+#second-number{
+    background-color: beige;
+    color: rgb(80, 80, 80);    
+    text-align: center;
+    width: 10%;
+    border-radius: 5px;
+    opacity: 0.39;
+    font-size: 24px;
+}
+#wynik{
+    background-color: beige;
+    color: rgb(80, 80, 80);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 5px;
+    opacity: 0.39;
+    font-size: 24px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(80, 80, 80);
+}
+
+li {
+    float: left;
+    opacity: 0.40;
+}
+
+li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    opacity: 0.40;
+}
+
+li a:hover:not(.active) {
+    background-color:rgb(41, 44, 49);
+    opacity: 0.40;
+}
+
+.active {
+    background-color: rgb(41, 44, 49);
+    opacity: 0.40;
+}
+#q{
+    color: beige;
+    opacity: 0.40;
+    
+}
